@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Agregateur</string>
+    <string name="avions">avions</string>
+    <string name="hotels">hotels</string>
+    <string name="voitures">voitures</string>
+    <string name="dateDebut">Date de début</string>
+    <string name="dateFin">Date de fin</string>
+    <string name="choix">Choix</string>
+    <string name="reserver">Réserver</string>
+    <string name="text_empty_reservations">Pas de réservations</string>
+    <string name="title_activity_create_reservation">CreateReservationActivity</string>
+</resources>
