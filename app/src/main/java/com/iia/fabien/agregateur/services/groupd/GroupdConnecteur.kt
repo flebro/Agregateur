@@ -8,7 +8,7 @@ import retrofit2.http.Query
 /**
  * Created by fabien on 19/03/18.
  */
-val GROUPD_API_BASE_URL = "http://192.168.43.226:8082/"
+val GROUPD_API_BASE_URL = "http://10.0.2.2:8082/"
 
 interface GroupdConnecteur {
 

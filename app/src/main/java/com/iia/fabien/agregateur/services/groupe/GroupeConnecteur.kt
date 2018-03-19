@@ -8,7 +8,7 @@ import retrofit2.http.*
 /**
  * Created by fabien on 19/03/18.
  */
-val GROUPE_API_BASE_URL = "http://192.168.100.72:5000/"
+val GROUPE_API_BASE_URL = "http://10.0.2.2:5000/"
 
 interface GroupeConnecteur {
 

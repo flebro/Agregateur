@@ -10,7 +10,7 @@ import retrofit2.http.POST
 /**
  * Created by fabien on 19/03/18.
  */
-val GROUPE_AUTH_API_BASE_URL = "http://192.168.100.72:3000/"
+val GROUPE_AUTH_API_BASE_URL = "http://10.0.2.2:3000/"
 
 interface GroupeAuthConnecteur  {
 
