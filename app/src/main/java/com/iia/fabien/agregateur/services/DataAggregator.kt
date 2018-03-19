@@ -4,6 +4,8 @@ import com.iia.fabien.agregateur.models.Reservable
 import com.iia.fabien.agregateur.models.Reservation
 import com.iia.fabien.agregateur.models.TypeEnum
 import com.iia.fabien.agregateur.services.groupb.GroupbService
+import com.iia.fabien.agregateur.services.groupd.GroupdService
+import com.iia.fabien.agregateur.services.groupe.GroupeService
 import java.util.*
 
 /**
@@ -12,7 +14,9 @@ import java.util.*
 object DataAggregator {
 
     private val connecteurs = ArrayList<ConnecteurService>().apply {
-        add(GroupbService())
+//        add(GroupbService())
+        add(GroupdService())
+//        add(GroupeService())
     }
 
     fun listReservationsByType(type: TypeEnum) : List<Reservation> {

@@ -24,13 +24,13 @@
 
     <Button
         android:id="@+id/dateDebutResaPicker"
-        android:layout_width="wrap_content"
+        android:layout_width="128dp"
         android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
+        android:onClick="showDateDebutPicker"
         android:text="@string/dateDebut"
         app:layout_constraintBaseline_toBaselineOf="@+id/dateDebutResaDisplay"
-        app:layout_constraintRight_toRightOf="parent"
-        android:onClick="showDateDebutPicker"/>
+        app:layout_constraintRight_toRightOf="parent" />
 
     <EditText
         android:id="@+id/dateFinResaDisplay"
@@ -40,22 +40,22 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:enabled="false"
-        app:layout_constraintEnd_toStartOf="@+id/reserveButton"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/dateFinResaPicker"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dateDebutResaDisplay" />
 
     <Button
         android:id="@+id/dateFinResaPicker"
         android:layout_width="128dp"
-        android:layout_height="48dp"
+        android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
         android:layout_marginTop="13dp"
+        android:onClick="showDateFinPicker"
         android:text="@string/dateFin"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dateDebutResaDisplay"
-        android:onClick="showDateFinPicker"/>
+        app:layout_constraintTop_toBottomOf="@+id/dateDebutResaDisplay" />
 
     <Spinner
         android:id="@+id/reservableSpinner"
@@ -70,13 +70,13 @@
 
     <Button
         android:id="@+id/reserveButton"
-        android:layout_width="wrap_content"
+        android:layout_width="128dp"
         android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
         android:layout_marginTop="24dp"
+        android:onClick="onReserver"
         android:text="@string/reserver"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/reservableSpinner"
-        android:onClick="onReserver"/>
+        app:layout_constraintTop_toBottomOf="@+id/reservableSpinner" />
 
 </android.support.constraint.ConstraintLayout>

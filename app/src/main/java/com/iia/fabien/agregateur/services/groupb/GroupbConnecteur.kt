@@ -11,7 +11,7 @@ import retrofit2.http.*
  * Created by fabien on 18/03/18.
  */
 
-val GROUPB_API_BASE_URL = "http://10.0.2.2:8080/"
+val GROUPB_API_BASE_URL = "http://192.168.100.146:8080/"
 
 interface GroupbConnecteur {
 
